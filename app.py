@@ -20,7 +20,7 @@ if st.button("Generar descripcion"):
         try:
             client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
-            prompt = f"""
+            prompt = F"""
 Actua como un experto en marketing digital y copywriting para ecommerce.
 
 Tu tarea es generar una descripcion de producto altamente persuasiva.
